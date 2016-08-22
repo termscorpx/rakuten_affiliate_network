@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.executables           = s.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   s.require_paths         = ["lib"]
 
-  s.add_dependency "addressable", "~> 2.3"
+  s.add_dependency "addressable", "~> 2.4"
   s.add_dependency "httparty", "~> 0.13"
   s.add_dependency "recursive-open-struct", "~> 1.0"
 
